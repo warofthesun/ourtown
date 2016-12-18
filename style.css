@@ -15,7 +15,7 @@ GitHub Theme URI: https://github.com/warofthesun/ourtown
 
 <!--[if lt IE 10]><link rel="stylesheet" href="ie_alt.css" media="screen" type="text/css" /><![endif]-->
 
-#gridContainer .entry-content .ngg-breadcrumbs{list-style:none;overflow:hidden;margin:0;padding:.5em 0;display: none !important;}
+hgroup {display: none;}
 
 /* Body, links, basics */
 
