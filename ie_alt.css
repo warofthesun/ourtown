@@ -1,0 +1,23 @@
+.featuredcaption { background-color:none !important;
+	left: 0;
+	height: 330px;
+	position: relative;
+	display: block;
+	bottom: 40px;
+	line-height: 20pt;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Economica', 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 5px;
+	letter-spacing:.13rem;
+
+}
+
+.featuredtitle { background-color:rgba(10,43,89,0.9)}
+
+
+rgba(10,43,89,0.9)

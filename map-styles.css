@@ -1,0 +1,440 @@
+.mapcol-one, .mapcol-three {
+	width:180px;
+	float:left;
+}
+
+.mapcol-one {
+	padding-right: 15px;
+}
+
+
+.mapcol-one .counter {
+	background-color: red;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+}
+
+.map-wrapper {
+	counter-reset: item;
+	width:1280px;
+	margin:0 auto;
+}
+
+.mapcol-one ol li, .mapcol-three ol li {
+	display: block;
+}
+
+.mapcol-one ol li:before, .mapcol-three ol li:before { 
+	content: counter(item) " ";
+	counter-increment: item;
+	color: #fff; 
+	font-size: 14px;
+	position: absolute;
+	margin-left: -45px;
+	background-color: #70ced2;
+	width: 25px;
+	height: 18px;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: -6px;
+	padding-top: 7px;
+	font-family: 'Contrail One' , 'Open Sans' , Helvetica, Arial, sans-serif;
+}
+
+.mapcol-three ol li:before {
+	margin-left: 180px;
+}
+
+.mapcol-two {
+	background-image: url('images/map-background.jpg');
+  height: 850px;
+  width: 887px;
+	float:left;
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.mapcol-three {
+	padding-left: 15px;
+}
+
+ol.locations-list {
+	margin:0;
+}
+
+.mapcol-one ol.locations-list li, .mapcol-three ol.locations-list li {
+	width: 160px;
+	background-color: #213a52;
+	margin-bottom: 5px;
+	padding: 0;
+	display: block;
+	padding: 10px;
+	text-align: left;
+	font-size: 12px;
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+
+
+.mapcol-one ol.locations-list li:hover, .mapcol-three ol.locations-list li:hover {
+	background-color: #edb946;
+  margin-bottom: 5px;
+}
+
+.mapcol-one ol.locations-list li:hover a, .mapcol-three ol.locations-list li:hover a {
+	color: #213a52;
+	margin-bottom: -9px;
+}
+
+.mapcol-one ol.locations-list li a, .mapcol-three ol.locations-list li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Contrail One' , 'Open Sans' , Helvetica, Arial, sans-serif;
+	margin-bottom: -5px;
+}
+
+.mapcol-one ol.locations-list li {
+	float: right;
+}
+
+.mapcol-three ol.locations-list li {
+	float: left;
+}
+
+a.map-marker {
+	width: 10px;
+	height: 10px;
+	border-radius: 15px;
+	position: relative;
+	display: block;
+	border: 2px solid yellow;
+	z-index: 99;
+	opacity: 0;
+}
+
+a:hover.map-marker {
+	border: 5px solid yellow;
+	opacity: 1;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+.locations-list li:hover .map-marker {
+	border: 5px solid yellow;
+	opacity: 1;
+	box-shadow: 0px 0px 5px #000000;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+.map-marker.casa-azafran {
+	top: 519px;
+  left: 890px;
+}
+
+.map-marker.fifty-forward {
+	top: 695px;
+  left: 458px;
+}
+
+.map-marker.crossings-event {
+	top: 719px;
+  left: 219px;
+}
+
+.map-marker.the-temple {
+  top: 485px;
+  left: 287px;
+}
+
+.map-marker.north-police {
+	top: -42px;
+  left: 530px;
+}
+
+.map-marker.howard-school {
+	top: 122px;
+  left: 813px;
+}
+
+.map-marker.parking-day {
+  top: 36px;
+  left: 726px;
+}
+
+.map-marker.mini-maker {
+  top: 122px;
+  left: 775px;
+}
+
+.map-marker.handmade {
+  top: -243px;
+  left: 612px;
+}
+
+.map-marker.southern-festival {
+  top: -74px;
+  left: 739px;
+}
+
+.map-marker.southeast {
+  top: 302px;
+  left: 322px;
+}
+
+.map-marker.dragon-park {
+  top: 22px;
+  left: 596px;
+}
+
+.map-marker.nash-up {
+  top: -174px;
+  left: 718px;
+}
+
+.map-marker.room-in-the-inn {
+  top: -151px;
+  left: 746px;
+}
+
+.map-marker.parnassus {
+  top: 106px;
+  left: 569px;
+}
+
+.map-marker.barista {
+  top: -406px;
+  left: 904px;
+}
+
+.map-marker.death-row {
+  top: -417px;
+  left: 268px;
+}
+
+.map-marker.oasis-center {
+  top: -341px;
+  left: 640px;
+}
+
+.map-marker.fond-object {
+  top: -676px;
+  left: 1042px;
+}
+
+.map-marker.university-school {
+  top: -322px;
+  left: 640px;
+}
+
+.map-marker.third-man {
+  top: -400px;
+  left: 749px;
+}
+
+.map-marker.northern-grade {
+  top: -401px;
+  left: 800px;
+}
+
+.map-marker.mas-tacos {
+  top: -694px;
+  left: 877px;
+}
+
+.map-marker.watkins {
+  top: 332px;
+  right: 323px;
+}
+
+.map-marker.riverbend {
+  top: 138px;
+  right: 809px;
+}
+
+.map-marker.downtown {
+  top: 201px;
+  right: 367px;
+}
+
+.map-marker.porter-flea {
+  top: 275px;
+  right: 289px;
+}
+
+.map-marker.afta {
+  top: 138px;
+  right: 330px;
+}
+
+.map-marker.tn-brew-works {
+  top: 164px;
+  right: 336px;
+}
+
+.map-marker.greyhound {
+  top: 116px;
+  right: 308px;
+}
+
+.map-marker.ryman {
+  top: 19px;
+  right: 348px;
+}
+
+.map-marker.creative {
+  top: -237px;
+  right: 475px;
+}
+
+.map-marker.hatch {
+  top: -40px;
+  right: 340px;
+}
+
+.map-marker.big-band {
+  top: -15px;
+  right: 535px;
+}
+
+.map-marker.harvest {
+  top: -3px;
+  right: 280px;
+}
+
+.map-marker.central-police {
+  top: -149px;
+  right: 351px;
+}
+
+.map-marker.lower-broadway {
+  top: -212px;
+  right: 331px;
+}
+
+.map-marker.oz-family {
+  top: -308px;
+  right: 898px;
+}
+
+.map-marker.downtown-farmers {
+  top: -362px;
+  right: 420px;
+}
+
+.map-marker.down-syndrome {
+  top: -152px;
+  right: 605px;
+}
+
+.map-marker.nashville-outlines {
+  top: -326px;
+  right: 730px;
+}
+
+.map-marker.family-day {
+  top: -141px;
+  right: 197px;
+}
+
+.map-marker.city-council {
+  top: -474px;
+  right: 384px;
+}
+
+.map-marker.fifty-forward-knowles {
+  top: -277px;
+  right: 275px;
+}
+
+.map-marker.print-crawl {
+  top: -434px;
+  right: 326px;
+}
+
+.map-marker.iop {
+  top: -477px;
+  right: 336px;
+}
+
+.mobile-warning, .window-width {
+  background-color: rgba(33, 58, 82, 0.6);
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Contrail One' , 'Open Sans' , Helvetica, Arial, sans-serif;
+}
+
+
+@media screen and (max-width: 1060px) and (min-width: 791px) {
+  #mapContainer {
+    max-width: 887px !important;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1380px) {
+  .mapcol-one, .mapcol-three {
+    display: none;
+  }
+}
+
+@media (min-width: 1380px) {
+  .window-width {
+    display: none;
+  }
+}
+
+@media (max-width: 1380px) and (min-width: 940px) {
+  .map-wrapper {
+    width: 880px !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .mobile-warning {
+    display: block;
+  }
+
+  .window-width {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) {
+  .mobile-warning {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1380px) {
+  .window-width {
+    display: block;
+  }
+}
+
+@media (max-width: 940px) {
+  .map-wrapper {
+    width: 680px !important;
+  }
+
+  .mapcol-two {
+    width: 680px;
+    height: 690px;
+  }
+}
+
+@media (max-width: 540px) {
+  .map-wrapper {
+    width: 380px !important;
+  }
+
+  .mapcol-two {
+    width: 380px;
+    height: 400px;
+  }
+}
+
